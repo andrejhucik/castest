@@ -1,0 +1,67 @@
+
+.idea
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+*.iml
+
+**/overlays/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+.classpath
+!/.project
+.project
+.settings
+target/
+.DS_Store
+.gradle/
+build/
+
+*.log
+**/*.log
+/spcas/src/main/docker/etc/httpd/logs/access_log
+/spcas/src/main/docker/etc/httpd/logs/error_log
+/spcas/src/main/docker/etc/httpd/logs/httpd.pid
+/spcas/src/main/docker/etc/httpd/logs/ssl_request_log
+/spcas/src/main/docker/etc/httpd/logs/slotmem-shm-p469ded0e_x509cluster.shm
+/spcas/src/main/docker/etc/httpd/logs/slotmem-shm-p469ded0e.shm
+/spcas/src/main/docker/etc/httpd/logs/slotmem-shm-p469ded0e_normalcluster.shm
+/spcas/src/main/docker/volumes/logs/auth/hsperfdata_root/
+!/auth/src/main/docker/jasypt/**
+
+.classpath
+!/.project
+.project
+.settings
+target/
+.idea/
+.DS_Store
+.idea
+overlays/
+.gradle/
+build/
+bin/
+*.iml
+*.log
+overlays

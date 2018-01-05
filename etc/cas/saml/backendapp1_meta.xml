@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="BackendApp1">
+<md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIB7TCCAZcCEBCfPEYrhAOOdYjuyONoviIwDQYJKoZIhvcNAQEEBQAweTELMAkGA1UEBhMCVVMx
+EDAOBgNVBAgTB015U3RhdGUxDzANBgNVBAcTBk15VG93bjEXMBUGA1UEChMOTXlPcmdhbml6YXRp
+b24xGTAXBgNVBAsTEEZPUiBURVNUSU5HIE9OTFkxEzARBgNVBAMTCkNlcnRHZW5DQUIwHhcNMTcw
+MzI0MDUwMTIzWhcNMzIwMzI1MDUwMTIzWjB7MQswCQYDVQQGEwJVUzEQMA4GA1UECAwHTXlTdGF0
+ZTEPMA0GA1UEBwwGTXlUb3duMRcwFQYDVQQKDA5NeU9yZ2FuaXphdGlvbjEZMBcGA1UECwwQRk9S
+IFRFU1RJTkcgT05MWTEVMBMGA1UEAwwMZDMwMWRlODdjNTBhMFwwDQYJKoZIhvcNAQEBBQADSwAw
+SAJBANR+0TqECs9CffhMWwMb1kPDEJvuCf4tDkDEHttaiff9EoQlb+pdk9m7GZM5Bl0jI09+/Q2K
+p9gv5pbWOxkZBE8CAwEAATANBgkqhkiG9w0BAQQFAANBAKE1oErZZiTRzEO7GwOL/GbAa0KxT317
+uxT0UICr1GE1pXDvRCFBTO2HYUhVDTt1/czJC9TirGbYyURTZYAXcdA=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://socpoist.parket.sk/saml2/sp/ars/soap" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://socpoist.parket.sk/saml2/sp/acs/post" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://socpoist.parket.sk/saml2/sp/acs/artifact" index="1"/>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="en">EMM</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">EMM</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">www.emm.sk</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="technical">
+<md:Company>EMM</md:Company>
+<md:GivenName>John</md:GivenName>
+<md:SurName>Doe</md:SurName>
+<md:EmailAddress>john@localhost</md:EmailAddress>
+<md:TelephoneNumber>97855312</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>
