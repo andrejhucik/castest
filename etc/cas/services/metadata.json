@@ -1,0 +1,16 @@
+{
+  "@class" : "org.apereo.cas.support.saml.services.SamlRegisteredService",
+  "serviceId" : "metadata",
+  "name" : "metadata",
+  "id" : 10000009,
+  "evaluationOrder" : 10,
+  "metadataLocation" : "/etc/cas/idp/metadata.xml",
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy",
+    "allowedAttributes" : [ "java.util.ArrayList", [ "Groups", "eZUAuthenticationMethod",  "SSN" ,"loginType","name", "surname", "fullName", "userType", "langKey","gridCardSerialNumber" ] ]
+       },
+      "accessStrategy" : {
+        "@class" : "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy", "enabled" : true,
+        "requireAllAttributes" : false,
+        "ssoEnabled" : true
+      } }

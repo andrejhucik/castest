@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor  xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                   xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                   xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" entityID="ENTITY_ID">
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <Extensions>
+            <shibmd:Scope regexp="false">SCOPE</shibmd:Scope>
+        </Extensions>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDFDCCAfygAwIBAgIUOSwZrBFnfnMFZkS1KtldSG/U+FgwDQYJKoZIhvcNAQEL
+                        BQAwGDEWMBQGA1UEAwwNY2FzLnBhcmtldC5zazAeFw0xNzAzMzExNjQ2MDJaFw0z
+                        NzAzMzExNjQ2MDJaMBgxFjAUBgNVBAMMDWNhcy5wYXJrZXQuc2swggEiMA0GCSqG
+                        SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCONqlATAdjVjGYz035CAYUyeUE3zIXK+ln
+                        ATsiaLaK7SCqI5IR7YOPNjl7U4/rcCb2p9KFdxMbbIpspTfXRk0l2Xwvl5iawQHu
+                        nKj3MCirM3khG2dVdne/X3G3yQG/Mo2VLvU39hSIX7WvYNGzA7V4qgwO93RfPjSQ
+                        3IhHjEYa9KH3R9CmpMS1cftnaj/d/Y8N0wH5+swwC/khNZliRpLDsuAUse+e/E44
+                        Pk41GhhdsJd0KUwi5xmyPMR6f8S1eadH/DZufi0ph6gBirSyP8xd6VhmzQ2j04xP
+                        +L+PhxrNeuHf6Iz1ZORMLhI2pRLwZc2z/KYGrVt7xcM2JEf7SEjHAgMBAAGjVjBU
+                        MB0GA1UdDgQWBBRkqb3iVtazgAMHoGsSBu2uGhLo4TAzBgNVHREELDAqgg1jYXMu
+                        cGFya2V0LnNrhhljYXMucGFya2V0LnNraWRwL21ldGFkYXRhMA0GCSqGSIb3DQEB
+                        CwUAA4IBAQB+vBlIePXX1n/j9FW5aLHQMSNlvN5z0ibnAFDZo7LUQ3hmW78Qj83m
+                        eNDzTSJechtNC8URAFpy/BqqfkhmJd3G2ct6iCY7jcWdx2hNG+t1xdewqsPziMF7
+                        eidAVjn+JqU/gTCRubdZDNB0I927DsYsxjEZImDHiFg+63ln5ozFPAhIxoTV1TT9
+                        EuDEbEODU7Vawggs2Fa8SKOrjAJYPfZGIbtkDiiWc+LvcRjX03/PeX7zF4yWveBv
+                        b3hqMp/gqVsaxa74k+VIV4dzCBXugxNFuiukxp0ys3+A0FzltbrHsJLT/fcisJb2
+                        Z+XyrfxLK8F+5MXfsQD3C5GlZZGk3nMA</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDFDCCAfygAwIBAgIUMUEuATr/9Fkh0lTT5fvRu/i0qwswDQYJKoZIhvcNAQEL
+                        BQAwGDEWMBQGA1UEAwwNY2FzLnBhcmtldC5zazAeFw0xNzAzMzExNjQ2MDJaFw0z
+                        NzAzMzExNjQ2MDJaMBgxFjAUBgNVBAMMDWNhcy5wYXJrZXQuc2swggEiMA0GCSqG
+                        SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuvXaI4U0U2n6r1mRKhNFaY9FJxMVwREqi
+                        eiMpoY68gSFr3xfO5NQV7HXB9YtJbgLFD999uh+kJus03pQrf71yFRokCxEJrD8g
+                        J3bU2pPpEiK/ZQqbz3o/50WfaCEH9gBWGvYC320r9L2fOsMeYu8rkpbKpYg79Vze
+                        sFI7U4eB+B45f9+rJAJK45Y7ozVRTiI0SYK5gowqnRqh7a5Vab6FbI0QIGhrbxbM
+                        xIJhzhihkfZc6WostN2SDfQP/Je1QTa6yKrv1OlzeXhgHSvf+1vdZSLcdjZzxaK/
+                        TqKYQ0tsowyvFJKx1Q5c0Q6RYELz77261+DBixpzPiFOtC634nGjAgMBAAGjVjBU
+                        MB0GA1UdDgQWBBSzMXY1mvObu/oLFK4jz0KE1TgT9zAzBgNVHREELDAqgg1jYXMu
+                        cGFya2V0LnNrhhljYXMucGFya2V0LnNraWRwL21ldGFkYXRhMA0GCSqGSIb3DQEB
+                        CwUAA4IBAQAW1+pM2oxd9f+1Gb5k5gACcaWMGOqJNl5whNkRgasbANrOBF9Ink44
+                        00gEfdFOKcs8gxlVmETJxSfYmPsatu9F2E0Hywkf1nX51+G2TTPIoin+I4eHrEy/
+                        mtfzwcKJ/lVI5VAk5uoogFk0Ok5UvYLFDLuChqmLY3MfXGLqpl1EH3J0AO+PYD7F
+                        J+b3NmS5GGYgIgRQ7Hh7aEQJKz3V/FzMMVdC0JWI8Hw6Zo/GbjPAI6Mr7nC/jhlS
+                        AI6tZ7vN0nvgLZ0qR3iOvZL8KgrIZY5DajIkX6XLmXjeyKQ80VJLLyMa6YBjO5BV
+                        Jc2gmIw3HiHgiP782d4fPrLLmq+HZPop</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+
+        <ArtifactResolutionService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:8443/sso/ArtifactResolver/metaAlias/publicidp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:8443/cas/sso/IDPSloRedirect/metaAlias/publicidp" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPSloRedirect/metaAlias/publicidp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/cas/sso/IDPSloPost/metaAlias/publicidp" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPSloPost/metaAlias/publicidp"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:8443/cas/sso/IDPSloSoap/metaAlias/publicidp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:8443/cas/sso/IDPMniRedirect/metaAlias/publicidp" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPMniRedirect/metaAlias/publicidp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/cas/sso/IDPMniPOSTmetaAlias/publicidp" ResponseLocation="https://idp.ssocircle.com:443/sso/IDPMniPOST/metaAlias/publicidp"/>
+        <ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:8443/cas/sso/IDPMniSoap/metaAlias/publicidp"/>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+        </NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos</NameIDFormat>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://localhost:8443/cas/sso/SSORedirect/metaAlias/publicidp"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/cas/sso/SSOPOST/metaAlias/publicidp"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:8443/cas/sso/SSOSoap/metaAlias/publicidp"/>
+        <NameIDMappingService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://localhost:8443/cas/sso/NIMSoap/metaAlias/publicidp"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>
