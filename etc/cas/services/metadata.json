@@ -4,7 +4,7 @@
   "name" : "metadata",
   "id" : 10000009,
   "evaluationOrder" : 10,
-  "metadataLocation" : "/etc/cas/idp/metadata.xml",
+  "metadataLocation" : "/etc/cas/saml/metadata.xml",
   "attributeReleasePolicy" : {
     "@class" : "org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy",
     "allowedAttributes" : [ "java.util.ArrayList", [ "Groups", "eZUAuthenticationMethod",  "SSN" ,"loginType","name", "surname", "fullName", "userType", "langKey","gridCardSerialNumber" ] ]

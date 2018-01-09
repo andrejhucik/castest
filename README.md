@@ -1,3 +1,6 @@
+```xml
+keytool -genkey -noprompt -alias spcas -keyalg RSA -validity 999  -keysize 2048 -dname "CN=cas.parket.sk, OU=Test, O=Test, L=Test, S=Test, C=SK" -keystore etc/cas/thekeystore -storepass changeit -keypass changeit  
+```
 CAS Overlay Template
 ============================
 
